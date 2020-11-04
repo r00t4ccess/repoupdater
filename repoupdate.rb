@@ -28,8 +28,6 @@ require 'open-uri'
 require 'faraday'
 
 
-# Schedule in minutes
-schedule = "60"
 repoBaseUrl = 'https://yum.oracle.com/repo/OracleLinux/OL8/'
 # Yum Branch path(repoPath), Branch Name (repoName) also doubles as virtual repo name
 repositories = [
