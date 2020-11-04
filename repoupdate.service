@@ -1,0 +1,9 @@
+[Unit]
+Description=Clone a OEL8 repo to artifactory
+
+[Service]
+Type=simple
+ExecStart=ruby /opt/scripts/repoupdate.rb
+
+[Install]
+WantedBy=basic.target
