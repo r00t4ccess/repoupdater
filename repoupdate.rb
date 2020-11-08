@@ -184,6 +184,7 @@ def cleanUpLocalCache(folderPath)
 
 end
 
+# Main logic
 for repo in repositories do
     packages = getPackageList repoBaseUrl, repo[0]
     folderPath = downloadPackages repoBaseUrl, repo[0], repo[1], packages

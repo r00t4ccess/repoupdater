@@ -1,0 +1,31 @@
+artJsonResponse = """{
+	"uri": "http://localhost:8081/artifactory/api/storage/epel",
+	"created": "2020-11-04",
+	"files": [{
+			"uri": "/wsdd-0.6.1-3.el8.noarch.rpm",
+			"size": "-1",
+			"lastModified": "2020-11-04",
+			"folder": "true"
+		},
+		{
+			"uri": "/wireguard-tools-2.0.20200827-1.el8.x86_64.rpm",
+			"size": "253207",
+			"lastModified": "2020-11-04",
+			"folder": "false",
+			"sha1": "7581379529e4605048af632e07d6f7257551e693",
+			"mdTimestamps": {
+				"properties": "lastModified(2020-11-04)"
+			}
+		},
+		{
+			"uri": "/xerces-c-devel-4.2.2-3.el8.x86_64.rpm",
+			"size": "253100",
+			"lastModified": "2020-11-04",
+			"folder": "false",
+			"sha1": "7581379529e4605048af632e07d6f7257551e693",
+			"mdTimestamps": {
+				"properties": "lastModified(2020-11-04)"
+			}
+		}
+	]
+}"""
